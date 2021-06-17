@@ -2,8 +2,8 @@ import React from 'react';
 
 const NavigationButtons = () => {
   return (
-    <div>
-      <button>Workshops</button>
+    <div data-cy='header-navigation-buttons'>
+      <button data-cy='workshops-btn'>Workshops</button>
       <button>Testing</button>
       <button>Vue</button>
       <button>Productivity</button>
