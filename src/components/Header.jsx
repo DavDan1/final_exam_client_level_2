@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <div data-cy='header-navigation-container'>
         <h1 data-cy='header-title'>Course List</h1>
-        <NavigationButtons />
+        <NavigationButtons  />
       </div>
     </div>
   );
