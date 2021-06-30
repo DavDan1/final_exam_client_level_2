@@ -11,4 +11,5 @@ describe('User can navigate', () => {
       .first()
       .should('contain.text', 'Workshops');
   });
+  cy.get('[data-cy= course-category]').should('have.length', 7);
 });
